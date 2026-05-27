@@ -1,0 +1,6734 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 269,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "696cd43b-8a80-4fce-838f-223004e03e6c",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "MagnoLink",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "src/img/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/platform.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/charge bar background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/charge bar background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/activated platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/activated platform.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/blue robot front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/blue robot front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/blue robot left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/blue robot left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/blue robot right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/blue robot right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/red robot front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/red robot front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/red robot left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/red robot left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/red robot right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/red robot right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/locked_gate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/locked_gate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/opened_gate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/opened_gate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/finish gate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/finish gate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/charge bar fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/charge bar fill.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/win screen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/win screen.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/left.png\"}",
+        "name": "left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/red robot right 2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"src/img/red robot right 2.png\",\"extension\":\".png\"}",
+        "name": "src/img/red robot right 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/red_robot_front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/red_robot_front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/red robot left 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/red robot left 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/blue_robot_front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/blue_robot_front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/blue robot right 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/blue robot right 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/img/blue robot left 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/img/blue robot left 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Mini.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Graduate-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Letter Key_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_A.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fab55e23b1b9048245fe0840530f53b1489018173fc5e96193060879148477f5_Letter Key_A.png",
+          "name": "Letter Key_A.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_B.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/126bda119546254f0fbdd90e1b8dcd23e3b77eaaf5f16b585e551235e3aa65cf_Letter Key_B.png",
+          "name": "Letter Key_B.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_C.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1001be05f9820e378a50faf844e52e4f03cabab41ec7c85d4500c452201eba79_Letter Key_C.png",
+          "name": "Letter Key_C.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_D.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/524b409877511931e2aeb27a5c0e64c659a6d8116a2994eb2c6cb306f355a61d_Letter Key_D.png",
+          "name": "Letter Key_D.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_E.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/42bddef28299ae2740f9b7991497f1ea3270d6e41f1c46c492a3b212e92107a3_Letter Key_E.png",
+          "name": "Letter Key_E.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_F.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/00aacdd3d32bdfb44a4808435346f528d8b310b79f22acbab440cf4331f33461_Letter Key_F.png",
+          "name": "Letter Key_F.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_G.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_G.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/9cb763801a917e743a4034a9dedeafdd1194ecaa740fe4cc89a8484f72ea76a4_Letter Key_G.png",
+          "name": "Letter Key_G.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_H.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/7a5a2bb1bc3dcb2d895ca9d2d7f5c27b70d209c9be4a2765828540d323ead65f_Letter Key_H.png",
+          "name": "Letter Key_H.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_I.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_I.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6f8bcac8523e668399b00320f4b940db8c4620360020dc41f13c4de4733e52b8_Letter Key_I.png",
+          "name": "Letter Key_I.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_J.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/4843677898fe5ebce52076439462c2f608cb5dc9b2df56e432dc2f60259ac9b9_Letter Key_J.png",
+          "name": "Letter Key_J.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_K.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e34726d129f40610f2e72c84056b247ef7a78b20efd8122102d424dbd30e5ca6_Letter Key_K.png",
+          "name": "Letter Key_K.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_L.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/b29c6772f5912f445f8aeac857400c3ce9ddbaf0fcc03eab260025ad875db7f0_Letter Key_L.png",
+          "name": "Letter Key_L.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_M.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_M.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/592ecbc3bb46b8da125303604c944638e8773ded24e68fa88c6cffe4c2eea7c7_Letter Key_M.png",
+          "name": "Letter Key_M.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_N.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_N.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1887769c3c8159120fa7a68e6efb0974620419f8e68ffd49610ece282a6a52c3_Letter Key_N.png",
+          "name": "Letter Key_N.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_O.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_O.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fe6727e4432d08a8db058b222790feb5e8a7f7f6deeb2c014da7697df7f743c5_Letter Key_O.png",
+          "name": "Letter Key_O.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_P.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_P.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/123f70241f77e7c52da04081a4641cc8efec884d26958c2e0ef5c55b866d8dda_Letter Key_P.png",
+          "name": "Letter Key_P.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Q.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f6369b3279baa0199cd6b7c62d90cff93c429056ead2b5e2b1504f4f6a182e46_Letter Key_Q.png",
+          "name": "Letter Key_Q.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_R.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/4edfeaf2f4ca119321a3ab91eb54a5ed5eb56bd6152c9a46b711278b59b4ab13_Letter Key_R.png",
+          "name": "Letter Key_R.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_S.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_S.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/92524d8bcb433f51ec698f961e60a5ccc573a95ab79a245a0be6f3077d76ee24_Letter Key_S.png",
+          "name": "Letter Key_S.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_T.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_T.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/186c248d96fcbaf2651da3668f99eda7a902ee22014dfd7e522293c5072f379e_Letter Key_T.png",
+          "name": "Letter Key_T.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_U.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_U.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/c269283293a9bf354d5c0eb2a3a9614000ce8e5a40c81a9d11831fd755245503_Letter Key_U.png",
+          "name": "Letter Key_U.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_V.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_V.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/500e0490775968915130663e80cb224739950cf510382cf3df3e0d4e74578d6c_Letter Key_V.png",
+          "name": "Letter Key_V.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_W.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_W.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e2ef0c658b38d6704d5015d04327cc43782c9d9c4191ceb55d157e7e59af755f_Letter Key_W.png",
+          "name": "Letter Key_W.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_X.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e769271e5de79c78bfc2d8c99db1b39ab3eb9da146f3e6ce457aea2a4bd87e42_Letter Key_X.png",
+          "name": "Letter Key_X.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_Y.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Y.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/cbc9b030de34b8b5f5201f116cfb75ac5f1112eb7cc6a1304fb726d52866e271_Letter Key_Y.png",
+          "name": "Letter Key_Y.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_Z.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Z.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
+          "name": "Letter Key_Z.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_A.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/9be41b7872c4231de3bfc4b2d91937448974b5928fce9e4b8226549e03581cc6_Letter Key_A.png",
+          "name": "Letter Key_A.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_B2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_B.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/10ad9fd0d421f71cd167ec71b772da2bd89bff9091866dacafd62ce30bde365a_Letter Key_B.png",
+          "name": "Letter Key_B.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_C2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_C.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/63cf40e8e873c1b8f87956ce56bec659251a10ed30d6f2916869d3701c74a08f_Letter Key_C.png",
+          "name": "Letter Key_C.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_D2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_D.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/3d0b18a4f64b8ec6766c9d6efc7a7cbf2f791ec3e4e32b5b6e82b93ea8a1d600_Letter Key_D.png",
+          "name": "Letter Key_D.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_E2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_E.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/071f40da07b07383cc65a5003100b8b84d3e0f5e9b77b2e2651940d521107a23_Letter Key_E.png",
+          "name": "Letter Key_E.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_F2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_F.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/907c6778983a7d675a53233c38cf8922e86e4bf74cc6cfcb426649df6144c283_Letter Key_F.png",
+          "name": "Letter Key_F.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_G2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_G.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/c495d426e8488fe258f81fbf07694f8e59a8227485633f67d6d19812d3a39668_Letter Key_G.png",
+          "name": "Letter Key_G.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_H2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_H.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/64c64c8ea72cb264f632d812780da268c142eb29c1d12ed480825c0ca33298e2_Letter Key_H.png",
+          "name": "Letter Key_H.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_I2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_I.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/7980f0bea922d2ab69a1cb00101bb8dce2fd0fd5205a63447888cde4e5eda46c_Letter Key_I.png",
+          "name": "Letter Key_I.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_J2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_J.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/bc28267e4090e38983af3e92d308e76ab1c3da359170417d70a95b4b038bac8c_Letter Key_J.png",
+          "name": "Letter Key_J.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_K2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_K.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/5be87ce9251d02e64039ab8f82c5229183912c218243a90cfd177023a12f8ddd_Letter Key_K.png",
+          "name": "Letter Key_K.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_L2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_L.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/f7ea6d12551cae5c319241dc12a40ba2b9ee8272caf637712b99a6c207fb0052_Letter Key_L.png",
+          "name": "Letter Key_L.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_M2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_M.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/f9bdcaed159a4f99e36e6928d3e57e97bb86b1cdd73eaa002885ab390212deb7_Letter Key_M.png",
+          "name": "Letter Key_M.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_N2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_N.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/69d46f4b8544d2d3693f02bd534ef62c4f842ae911df33e5dd23f640efbedf04_Letter Key_N.png",
+          "name": "Letter Key_N.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_O2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_O.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/9954f48374e3b99713236a41e54e6545a8e0cf2d780c5e552f49adcea5820854_Letter Key_O.png",
+          "name": "Letter Key_O.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_P2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_P.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/0f138438828f2bcc4d07aaa295be556f0c77bf310237b36bdd504e9ad2993fa9_Letter Key_P.png",
+          "name": "Letter Key_P.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_Q2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Q.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/cbe2988e099c0a509acebe3f20928a5818a6de39296a55a5d56398a11f5ca762_Letter Key_Q.png",
+          "name": "Letter Key_Q.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_R2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_R.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/816089540d0ff018cd953418b0716a70d06c90adf924f6317c0fe9f7e36881ad_Letter Key_R.png",
+          "name": "Letter Key_R.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_S2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_S.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/9704019a573c1a516c418e01a8719d317ad548e0f88df80c692c4b8ab1a42267_Letter Key_S.png",
+          "name": "Letter Key_S.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_T2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_T.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/3f373d4dff80ca59b82904fe22f5dcb9d1239aaa9c0758ab726f99fe4dddf0e8_Letter Key_T.png",
+          "name": "Letter Key_T.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_U2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_U.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/fc0e301607ed481aa8dd66c66de4fece5a22d902046ff7c31a7cb4de0cf53302_Letter Key_U.png",
+          "name": "Letter Key_U.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_V2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_V.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/6d702237022d798c0c700cccef4a8f53dd162a8f4785b4ab2c5fff054d3fea41_Letter Key_V.png",
+          "name": "Letter Key_V.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_W2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_W.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/94502e7753841da58f37793a52ff5d46c25063ff650811dee01b267d67c84f16_Letter Key_W.png",
+          "name": "Letter Key_W.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_X2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_X.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/257943bb0ee2c544066a01ba322f38907a578653a6f101b83a1db3dd6ed905bd_Letter Key_X.png",
+          "name": "Letter Key_X.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_Y2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Y.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/2ebcfa5588d7de0fde2431d99af7bd91bff9681507369d4c94b0f9010566c5bc_Letter Key_Y.png",
+          "name": "Letter Key_Y.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_Z2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Z.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/f891f82851f35cf395570688e251aa8690eaf5855419ca38a78dedb7d6fd5a1c_Letter Key_Z.png",
+          "name": "Letter Key_Z.png"
+        }
+      },
+      {
+        "file": "src/assets/Letter Key_A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/assets/Letter Key_A2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "src/assets/Letter Key_D2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "src/assets/Letter Key_D2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Letter Key_A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Letter Key_A2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Letter Key_D2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Letter Key_D2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Letter Key_S2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Letter Key_S2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Letter Key_W2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Letter Key_W2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shift Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shift Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/c38184cae4beb02fa1c222d993f7553df5a38fff53995f1e8c1873370fb1100a_Shift Key.png",
+          "name": "Shift Key.png"
+        }
+      },
+      {
+        "file": "assets/Arrow Key_Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Down.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/94523ef2083c28173877e8deb0e8db26f7ab09e8222438b58cbbb3add069d37a_Arrow Key_Down.png",
+          "name": "Arrow Key_Down.png"
+        }
+      },
+      {
+        "file": "assets/Arrow Key_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/9babf0ec0acbd51b85e7ae155534e0ecb734d39621c7618f507bc8211ea82703_Arrow Key_Left.png",
+          "name": "Arrow Key_Left.png"
+        }
+      },
+      {
+        "file": "assets/Arrow Key_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/1fec5b7543165a92de8ef20b39e12c85f57de933ccee6798cb924b5d1ec6a254_Arrow Key_Right.png",
+          "name": "Arrow Key_Right.png"
+        }
+      },
+      {
+        "file": "assets/Arrow Key_Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Up.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/1e1b1caa80c49158d2f7a13b27f55146d9b4e1612b90069236bfe5b2b23ea93c_Arrow Key_Up.png",
+          "name": "Arrow Key_Up.png"
+        }
+      },
+      {
+        "file": "assets/Arrow Key_Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Arrow Key_Up.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Arrow Key_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Arrow Key_Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Arrow Key_Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Arrow Key_Down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Arrow Key_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Arrow Key_Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ctrl Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ctrl Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/1d89cca9cdcabf23302bf81c9024610b6e7bfa8319a1af10a54a6b9bdba342d3_Ctrl Key.png",
+          "name": "Ctrl Key.png"
+        }
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "level_321",
+      "name": "level 1",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4163025217733342,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "HasKey",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "BlueAtExit",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RedAtExit",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "IsLinked",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Leader",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ChargePower",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "IsCharging",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CanCharge",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LaunchingRed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LaunchingBlue",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "BlueFacing",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RedFacing",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0000000000000002,
+          "height": 1641.9999999999995,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background_1",
+          "persistentUuid": "09d0d660-43be-420a-a0f2-382084e42add",
+          "width": 2884,
+          "x": -116,
+          "y": -280,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 433,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "02b311ca-cc6c-41f9-8e4f-54e9f27719ba",
+          "width": 577,
+          "x": -124,
+          "y": 831,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.125,
+          "height": 135,
+          "layer": "",
+          "name": "robot_blue",
+          "persistentUuid": "07d4ca29-e2bd-4271-9720-1a57f03bc395",
+          "width": 135,
+          "x": 57,
+          "y": 917,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 135,
+          "keepRatio": true,
+          "layer": "",
+          "name": "robot_red",
+          "persistentUuid": "ef5619c3-aa93-4bc9-aa28-852106d1bfee",
+          "width": 135,
+          "x": 180,
+          "y": 912,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "key",
+          "persistentUuid": "0d6dd6a2-62d4-4683-b5f6-cd8a76dec0bc",
+          "width": 100,
+          "x": 839,
+          "y": 916,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "keepRatio": true,
+          "layer": "",
+          "name": "locked_gate",
+          "persistentUuid": "393fbce1-c3ce-4be2-b425-be4a459094a8",
+          "width": 300,
+          "x": 631,
+          "y": 535,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "keepRatio": true,
+          "layer": "",
+          "name": "opened_gate",
+          "persistentUuid": "187cf9c2-83d4-48b5-ac9a-a0413f3e3cc7",
+          "width": 300,
+          "x": 631,
+          "y": 535,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "keepRatio": true,
+          "layer": "",
+          "name": "finished_gate",
+          "persistentUuid": "57c6508f-2e8c-46bd-bce9-d4742960c11a",
+          "width": 300,
+          "x": 3,
+          "y": 526,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 112.61261261261261,
+          "keepRatio": true,
+          "layer": "",
+          "name": "chargebar_bg",
+          "persistentUuid": "72dde78a-7e29-4ffc-b5cd-3f66a02462f8",
+          "width": 200,
+          "x": 216,
+          "y": 458,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
+          "keepRatio": true,
+          "layer": "",
+          "name": "chargebar_fill",
+          "persistentUuid": "5a4583d3-c3ad-449a-8e47-88e90d0f2746",
+          "width": 189,
+          "x": 237,
+          "y": 516,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 433,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "6cb5c716-fa38-4894-930c-4dee839c0433",
+          "width": 577,
+          "x": 704,
+          "y": 826,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 433,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "f4530bfb-7cc7-4c19-8561-0bec8d989dfa",
+          "width": 658,
+          "x": 1188,
+          "y": 733,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 433,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "722467c4-dd57-483d-a118-46b350fe45f8",
+          "width": 1542,
+          "x": -375,
+          "y": 575,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 433,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "dcea1157-7285-4834-bf00-75f64b836fae",
+          "width": 1325,
+          "x": 105,
+          "y": 318,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "activated_platform",
+          "persistentUuid": "2d631803-0c7e-4c8d-96ec-a81af20ba3aa",
+          "width": 0,
+          "x": 974,
+          "y": 1007,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "",
+          "name": "button",
+          "persistentUuid": "72135a83-e625-4400-b2ee-0a66f906b4bf",
+          "width": 200,
+          "x": 984,
+          "y": 901,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 124,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tutorial",
+          "persistentUuid": "665f17bd-6098-4cea-b1ec-296fbbfbfe75",
+          "width": 1037,
+          "x": 321,
+          "y": 179,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "key_tutorial",
+          "persistentUuid": "2dac3609-8a1d-497a-a64b-7864b7e34ec0",
+          "width": 265,
+          "x": 658,
+          "y": 859,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "button_tutorial",
+          "persistentUuid": "18397df7-9046-4fb5-bb52-c60325575c3c",
+          "width": 298,
+          "x": 961,
+          "y": 852,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "A",
+          "persistentUuid": "a4db913a-562d-41e5-9c25-4e937e0f444d",
+          "width": 0,
+          "x": 777,
+          "y": 169,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "W",
+          "persistentUuid": "dc85e44d-2c89-4ba6-92ed-de9621a125d6",
+          "width": 0,
+          "x": 677,
+          "y": 169,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "D",
+          "persistentUuid": "707a751c-42ac-486e-8e03-e2096d650b89",
+          "width": 0,
+          "x": 977,
+          "y": 169,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "S",
+          "persistentUuid": "ace58771-3a02-4f97-a297-3a6450e24444",
+          "width": 0,
+          "x": 877,
+          "y": 169,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shift_Key",
+          "persistentUuid": "831d2042-c990-49f0-be03-11bb24d415d8",
+          "width": 0,
+          "x": 1077,
+          "y": 169,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Up",
+          "persistentUuid": "7fdb72ae-ac30-4b53-9168-9c8a3a8d4fbd",
+          "width": 0,
+          "x": 677,
+          "y": 290,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "143ebf53-5543-4c1b-82d8-aecd4fe25e8a",
+          "width": 0,
+          "x": 777,
+          "y": 290,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Down",
+          "persistentUuid": "8cb81bd8-05c4-4419-9060-6e3ccd22e4ea",
+          "width": 0,
+          "x": 877,
+          "y": 290,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "fb511c5d-cd77-40f0-8afa-7fa57a987899",
+          "width": 0,
+          "x": 977,
+          "y": 290,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ctrl_Key",
+          "persistentUuid": "de3d1f02-ddfc-4627-bfc5-d3b24acd48ac",
+          "width": 0,
+          "x": 1077,
+          "y": 290,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background_1",
+          "persistentUuid": "14e4e114-dc2d-4617-9080-126fd962f931",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "platform",
+          "persistentUuid": "674a0b42-9b06-4e51-acea-9d9e5a31110a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 47,
+                            "y": 170
+                          },
+                          {
+                            "x": 531,
+                            "y": 170
+                          },
+                          {
+                            "x": 531,
+                            "y": 264
+                          },
+                          {
+                            "x": 47,
+                            "y": 264
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "activated_platform",
+          "persistentUuid": "b2ce978c-d3d1-4872-93da-e5d0a5579625",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/activated platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 36,
+                            "y": 207
+                          },
+                          {
+                            "x": 464,
+                            "y": 207
+                          },
+                          {
+                            "x": 464,
+                            "y": 290
+                          },
+                          {
+                            "x": 36,
+                            "y": 290
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "robot_blue",
+          "persistentUuid": "89e4dafc-2883-4c1b-b7a3-ccb267b9c3c1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 900,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "front",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/blue_robot_front.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 102,
+                            "y": 47
+                          },
+                          {
+                            "x": 397,
+                            "y": 47
+                          },
+                          {
+                            "x": 397,
+                            "y": 414
+                          },
+                          {
+                            "x": 102,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/blue robot left 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 102,
+                            "y": 47
+                          },
+                          {
+                            "x": 397,
+                            "y": 47
+                          },
+                          {
+                            "x": 397,
+                            "y": 414
+                          },
+                          {
+                            "x": 102,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/blue robot right 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 102,
+                            "y": 47
+                          },
+                          {
+                            "x": 397,
+                            "y": 47
+                          },
+                          {
+                            "x": 397,
+                            "y": 414
+                          },
+                          {
+                            "x": 102,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "robot_red",
+          "persistentUuid": "0f6d7a0c-a322-433f-88f5-08d0d6d77b16",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 900,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/red_robot_front.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 105,
+                            "y": 39
+                          },
+                          {
+                            "x": 397,
+                            "y": 39
+                          },
+                          {
+                            "x": 397,
+                            "y": 399
+                          },
+                          {
+                            "x": 105,
+                            "y": 399
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/red robot right 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 105,
+                            "y": 39
+                          },
+                          {
+                            "x": 397,
+                            "y": 39
+                          },
+                          {
+                            "x": 397,
+                            "y": 399
+                          },
+                          {
+                            "x": 105,
+                            "y": 399
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/red robot left 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 105,
+                            "y": 39
+                          },
+                          {
+                            "x": 397,
+                            "y": 39
+                          },
+                          {
+                            "x": 397,
+                            "y": 399
+                          },
+                          {
+                            "x": 105,
+                            "y": 399
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "key",
+          "persistentUuid": "14056f88-16cc-4dd2-9f24-6017d0d975fc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 53,
+                            "y": 165
+                          },
+                          {
+                            "x": 455,
+                            "y": 165
+                          },
+                          {
+                            "x": 455,
+                            "y": 330
+                          },
+                          {
+                            "x": 53,
+                            "y": 330
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "locked_gate",
+          "persistentUuid": "4e08db88-3e1d-4517-a957-baaed3e62228",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/locked_gate.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 66
+                          },
+                          {
+                            "x": 468,
+                            "y": 66
+                          },
+                          {
+                            "x": 468,
+                            "y": 387
+                          },
+                          {
+                            "x": 32,
+                            "y": 387
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "opened_gate",
+          "persistentUuid": "29a59470-2eb3-4405-b83a-d9aee8d125d0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/opened_gate.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 68
+                          },
+                          {
+                            "x": 481,
+                            "y": 68
+                          },
+                          {
+                            "x": 481,
+                            "y": 418
+                          },
+                          {
+                            "x": 20,
+                            "y": 418
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "finished_gate",
+          "persistentUuid": "632ad6a0-b40b-450b-bdc7-a622e95116ea",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/finish gate.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 48
+                          },
+                          {
+                            "x": 469,
+                            "y": 48
+                          },
+                          {
+                            "x": 469,
+                            "y": 427
+                          },
+                          {
+                            "x": 30,
+                            "y": 427
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "chargebar_bg",
+          "persistentUuid": "9641aed9-6cdc-446a-aede-b5d6f7e7585a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/charge bar background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 122
+                          },
+                          {
+                            "x": 622,
+                            "y": 122
+                          },
+                          {
+                            "x": 622,
+                            "y": 250
+                          },
+                          {
+                            "x": 44,
+                            "y": 250
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "chargebar_fill",
+          "persistentUuid": "f5c7d9cd-2774-425c-bc71-18cac932a7a4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/charge bar fill.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 87.5,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 500,
+                        "y": 125
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 82,
+                            "y": 91
+                          },
+                          {
+                            "x": 918,
+                            "y": 91
+                          },
+                          {
+                            "x": 918,
+                            "y": 157
+                          },
+                          {
+                            "x": 82,
+                            "y": 157
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "button",
+          "persistentUuid": "08d85e3f-9190-4b7e-afba-f326a4e97460",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 165
+                          },
+                          {
+                            "x": 436,
+                            "y": 165
+                          },
+                          {
+                            "x": 436,
+                            "y": 339
+                          },
+                          {
+                            "x": 65,
+                            "y": 339
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "tutorial",
+          "persistentUuid": "c400b191-0a5d-4600-a071-e3888752f4b1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Blue Robot: \n\nRed Robot: \n\nPress R to restart",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Blue Robot: \n\nRed Robot: \n\nPress R to restart",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "key_tutorial",
+          "persistentUuid": "ddf9cfa0-7a29-47b3-8af7-997d79c81779",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Takes the key to unlock the gate",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Takes the key to unlock the gate",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "button_tutorial",
+          "persistentUuid": "d15ec802-1dbd-4419-87f1-68c30a8efdcc",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Touch the button to activate the platform",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Touch the button to activate the platform",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "A",
+          "persistentUuid": "6631f89e-2753-4a3c-a702-0bd3e7377396",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Letter Key_A2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "D",
+          "persistentUuid": "fef162b0-85c0-4bd3-a6d4-91e73e55ef4c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Letter Key_D2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "S",
+          "persistentUuid": "06578c3f-47ea-4f58-b21c-3d9ea6a6268d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Letter Key_S2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "W",
+          "persistentUuid": "3043d812-454c-4e47-8922-35e1ec15621f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Letter Key_W2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "a7f083b4d4efd292eee37b83a06c59fa73d6dee5695a23356fced5197aea7cc3",
+          "name": "Shift_Key",
+          "persistentUuid": "091c7e45-54e1-4940-aad2-853c2dc8ad6f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Shift Key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 19
+                          },
+                          {
+                            "x": 96,
+                            "y": 19
+                          },
+                          {
+                            "x": 96,
+                            "y": 81
+                          },
+                          {
+                            "x": 4,
+                            "y": 81
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Up",
+          "persistentUuid": "28c25eff-2acc-4077-9332-b6b19a4e453a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Arrow Key_Up.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Left",
+          "persistentUuid": "7ddac4bb-61e7-4874-93fb-2384d0d9af70",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Arrow Key_Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Down",
+          "persistentUuid": "de59f221-d375-48e1-b96b-d69470914e26",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Arrow Key_Down.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Right",
+          "persistentUuid": "5973a1c7-c125-456e-84ae-98b16b05544e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Arrow Key_Right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 14
+                          },
+                          {
+                            "x": 87,
+                            "y": 86
+                          },
+                          {
+                            "x": 13,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "a97158db3cf371f8e16c4d503810d6319c4ae43e2b0ba8a70554586abfafc264",
+          "name": "Ctrl_Key",
+          "persistentUuid": "dd7fc386-16be-4218-b0b1-7bf07fbeeac1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ctrl Key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 19
+                          },
+                          {
+                            "x": 96,
+                            "y": 19
+                          },
+                          {
+                            "x": 96,
+                            "y": 81
+                          },
+                          {
+                            "x": 4,
+                            "y": 81
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background_1"
+          },
+          {
+            "objectName": "platform"
+          },
+          {
+            "objectName": "activated_platform"
+          },
+          {
+            "objectName": "robot_blue"
+          },
+          {
+            "objectName": "robot_red"
+          },
+          {
+            "objectName": "key"
+          },
+          {
+            "objectName": "locked_gate"
+          },
+          {
+            "objectName": "opened_gate"
+          },
+          {
+            "objectName": "finished_gate"
+          },
+          {
+            "objectName": "chargebar_bg"
+          },
+          {
+            "objectName": "chargebar_fill"
+          },
+          {
+            "objectName": "button"
+          },
+          {
+            "objectName": "button_tutorial"
+          },
+          {
+            "objectName": "tutorial"
+          },
+          {
+            "objectName": "key_tutorial"
+          },
+          {
+            "objectName": "A"
+          },
+          {
+            "objectName": "D"
+          },
+          {
+            "objectName": "S"
+          },
+          {
+            "objectName": "W"
+          },
+          {
+            "objectName": "Shift_Key"
+          },
+          {
+            "objectName": "Up"
+          },
+          {
+            "objectName": "Left"
+          },
+          {
+            "objectName": "Down"
+          },
+          {
+            "objectName": "Right"
+          },
+          {
+            "objectName": "Ctrl_Key"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Scene setting"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "opened_gate"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "chargebar_fill"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "chargebar_bg"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueAtExit",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedAtExit",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingBlue",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingRed",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueFacing",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedFacing",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"r\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"level 1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Respawn"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "robot_blue",
+                ">",
+                "1150"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "robot_blue",
+                "=",
+                "-100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "robot_blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingBlue",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "robot_red",
+                ">",
+                "1150"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "robot_red",
+                "=",
+                "-100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "robot_red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingRed",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Key Setting"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue Robot takes the key"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_blue",
+                "key",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "key",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_blue",
+                "opened_gate",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "locked_gate",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "opened_gate",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red Robot takes the key"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_red",
+                "key",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "key",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_red",
+                "opened_gate",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "locked_gate",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "opened_gate",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HasKey",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Finish Gate Setting"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue Exit"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_blue",
+                "finished_gate",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueAtExit",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue is not at Exit"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_blue",
+                "finished_gate",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueAtExit",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red Exit"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_red",
+                "finished_gate",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedAtExit",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red is not at Exit"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_red",
+                "finished_gate",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedAtExit",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Both Exit"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BlueAtExit",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RedAtExit",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"win scene\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Robot controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue Robot"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueFacing",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "robot_blue",
+                "Animation",
+                "=",
+                "\"left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BlueFacing",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "robot_blue",
+                "Animation",
+                "=",
+                "\"right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"w\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"s\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "robot_blue",
+                "robot_red",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "600"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red Robot"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedFacing",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "robot_red",
+                "Animation",
+                "=",
+                "\"left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RedFacing",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "robot_red",
+                "Animation",
+                "=",
+                "\"right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"RControl\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "robot_red",
+                "robot_blue",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "600"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Adsorption mechanism"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue is Leader"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "robot_red",
+                "=",
+                "robot_blue.X() + 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "robot_red",
+                "=",
+                "robot_blue.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red is Leader"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "robot_blue",
+                "=",
+                "robot_red.X() - 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "robot_blue",
+                "=",
+                "robot_red.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Charging"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue can charge"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue Charging"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "+",
+                "80 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "chargebar_bg",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "chargebar_fill",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChargePower",
+                    ">=",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChargePower",
+                    "-",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red can charge"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"RControl\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red Charging"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"RControl\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "+",
+                "80 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "chargebar_bg",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "chargebar_fill",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CanCharge",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChargePower",
+                    ">=",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChargePower",
+                    "-",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Charge bar follow Blue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "chargebar_bg",
+                "=",
+                "robot_blue.X() - 30"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "chargebar_bg",
+                "=",
+                "robot_blue.Y() - 80"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "chargebar_fill",
+                "=",
+                "chargebar_bg.X() + 20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "chargebar_fill",
+                "=",
+                "chargebar_bg.Y() + 12"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Charge bar follow Red"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "chargebar_bg",
+                "=",
+                "robot_red.X() - 30"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "chargebar_bg",
+                "=",
+                "robot_red.Y() - 80"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "chargebar_fill",
+                "=",
+                "chargebar_bg.X() + 20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "chargebar_fill",
+                "=",
+                "chargebar_bg.Y() + 12"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Charge bar fill extend"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "chargebar_fill",
+                "Resizable",
+                "=",
+                "189 * Variable(ChargePower) / 100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Launch"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Blue launch Red"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "900"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "900"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "chargebar_bg"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "chargebar_fill"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "100 + Variable(ChargePower) * 4"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "robot_red",
+                "Variable(BlueFacing) * (800 + Variable(ChargePower) * 4)",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingRed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"RedLaunch\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "LaunchingRed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"RedLaunch\"",
+                ">",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "robot_red"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingRed",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "900"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 134,
+            "g": 233,
+            "r": 184,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Red launch Blue"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"RControl\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsLinked",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Leader",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "IsCharging",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "900"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_red",
+                "PlatformerObject",
+                "=",
+                "900"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "chargebar_bg"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "chargebar_fill"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "100 + Variable(ChargePower) * 4"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "robot_blue",
+                "Variable(RedFacing) * (800 + Variable(ChargePower) * 4)",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingBlue",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"BlueLaunch\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChargePower",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "LaunchingBlue",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"BlueLaunch\"",
+                ">",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "robot_blue"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LaunchingBlue",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "robot_blue",
+                "PlatformerObject",
+                "=",
+                "900"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Button setting"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_blue",
+                "button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "activated_platform",
+                "=",
+                "323",
+                "=",
+                "790"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robot_red",
+                "button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "activated_platform",
+                "=",
+                "323",
+                "=",
+                "790"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "win_32scene",
+      "name": "win scene",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1202,
+          "keepRatio": true,
+          "layer": "",
+          "name": "win_screen",
+          "persistentUuid": "926118ac-2019-4b8e-b50f-c8cfb8c35c6a",
+          "width": 2153,
+          "x": -41,
+          "y": -36,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Restart",
+          "persistentUuid": "9406af25-d69f-4e28-8288-b7832bdf3915",
+          "width": 0,
+          "x": 736,
+          "y": 857,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "win_screen",
+          "persistentUuid": "810d179f-f7ae-4b3f-a4e1-fae5d7b948d4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "src/img/win screen.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Restart",
+          "persistentUuid": "3013aed8-2c15-4773-af5b-e777d598d7e1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press R to Restart",
+          "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press R to Restart",
+            "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "win_screen"
+          },
+          {
+            "objectName": "Restart"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"r\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"level 1\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
